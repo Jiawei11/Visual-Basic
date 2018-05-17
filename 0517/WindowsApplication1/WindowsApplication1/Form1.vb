@@ -40,7 +40,7 @@
                     End If
                 End If
             Next
-            PrintLine(2, str)
+            PrintLine(2, Trim(str))
         Next
         Close()
     End Sub
