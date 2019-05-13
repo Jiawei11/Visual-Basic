@@ -18,17 +18,17 @@ Public Class Form1
             SkillName.Add(LineInput(1).Split({","}, StringSplitOptions.RemoveEmptyEntries).ToList.Last)
         Next
 
-        Dim a
+        Dim UserSkill
         Do Until EOF(1)
             Dim Key As String = LineInput(1)
-            a = From Data In DB
+            UserSkill = From Data In DB
         Where Data.UserKey = Key
         Select Data.UserKey, Data.USerName, Data.UserSkillName
 
         Loop
 
         Dim str As String = ""
-        For Each result In a
+        For Each result In UserSkill
             str &= result.UserKey & " => " & result.USerName & " => " & SkillName(result.userskillname - 1) & vbCrLf
         Next
         PrintLine(2, str)
