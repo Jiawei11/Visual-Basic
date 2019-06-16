@@ -1,0 +1,12 @@
+C:\Users\zxc37\AppData\Local\Temporary Projects\Web\bin\Debug\Web.exe
+C:\Users\zxc37\AppData\Local\Temporary Projects\Web\bin\Debug\Web.pdb
+C:\Users\zxc37\AppData\Local\Temporary Projects\Web\bin\Debug\Web.xml
+C:\Users\zxc37\AppData\Local\Temporary Projects\Web\obj\x86\Debug\Web.Form1.resources
+C:\Users\zxc37\AppData\Local\Temporary Projects\Web\obj\x86\Debug\Web.Resources.resources
+C:\Users\zxc37\AppData\Local\Temporary Projects\Web\obj\x86\Debug\Web.vbproj.GenerateResource.Cache
+C:\Users\zxc37\AppData\Local\Temporary Projects\Web\obj\x86\Debug\Web.exe
+C:\Users\zxc37\AppData\Local\Temporary Projects\Web\obj\x86\Debug\Web.xml
+C:\Users\zxc37\AppData\Local\Temporary Projects\Web\obj\x86\Debug\Web.pdb
+C:\Users\zxc37\Desktop\Web\Web\obj\x86\Debug\Web.exe
+C:\Users\zxc37\Desktop\Web\Web\obj\x86\Debug\Web.xml
+C:\Users\zxc37\Desktop\Web\Web\obj\x86\Debug\Web.pdb
