@@ -7,3 +7,14 @@ C:\Users\user\Desktop\Dataq\Dataq\obj\x86\Debug\Dataq.vbproj.GenerateResource.Ca
 C:\Users\user\Desktop\Dataq\Dataq\obj\x86\Debug\Dataq.exe
 C:\Users\user\Desktop\Dataq\Dataq\obj\x86\Debug\Dataq.xml
 C:\Users\user\Desktop\Dataq\Dataq\obj\x86\Debug\Dataq.pdb
+C:\xampp\htdocs\Visual-Basic\Visual_Kit\Dataq\Dataq\bin\Debug\Dataq.exe
+C:\xampp\htdocs\Visual-Basic\Visual_Kit\Dataq\Dataq\bin\Debug\Dataq.pdb
+C:\xampp\htdocs\Visual-Basic\Visual_Kit\Dataq\Dataq\bin\Debug\Dataq.xml
+C:\xampp\htdocs\Visual-Basic\Visual_Kit\Dataq\Dataq\obj\x86\Debug\Dataq.vbprojAssemblyReference.cache
+C:\xampp\htdocs\Visual-Basic\Visual_Kit\Dataq\Dataq\obj\x86\Debug\Dataq.Form1.resources
+C:\xampp\htdocs\Visual-Basic\Visual_Kit\Dataq\Dataq\obj\x86\Debug\Dataq.Resources.resources
+C:\xampp\htdocs\Visual-Basic\Visual_Kit\Dataq\Dataq\obj\x86\Debug\Dataq.vbproj.GenerateResource.cache
+C:\xampp\htdocs\Visual-Basic\Visual_Kit\Dataq\Dataq\obj\x86\Debug\Dataq.vbproj.CoreCompileInputs.cache
+C:\xampp\htdocs\Visual-Basic\Visual_Kit\Dataq\Dataq\obj\x86\Debug\Dataq.exe
+C:\xampp\htdocs\Visual-Basic\Visual_Kit\Dataq\Dataq\obj\x86\Debug\Dataq.xml
+C:\xampp\htdocs\Visual-Basic\Visual_Kit\Dataq\Dataq\obj\x86\Debug\Dataq.pdb
