@@ -1,0 +1,9 @@
+C:\Users\user\Desktop\Dataq\Dataq\bin\Debug\Dataq.exe
+C:\Users\user\Desktop\Dataq\Dataq\bin\Debug\Dataq.pdb
+C:\Users\user\Desktop\Dataq\Dataq\bin\Debug\Dataq.xml
+C:\Users\user\Desktop\Dataq\Dataq\obj\x86\Debug\Dataq.Form1.resources
+C:\Users\user\Desktop\Dataq\Dataq\obj\x86\Debug\Dataq.Resources.resources
+C:\Users\user\Desktop\Dataq\Dataq\obj\x86\Debug\Dataq.vbproj.GenerateResource.Cache
+C:\Users\user\Desktop\Dataq\Dataq\obj\x86\Debug\Dataq.exe
+C:\Users\user\Desktop\Dataq\Dataq\obj\x86\Debug\Dataq.xml
+C:\Users\user\Desktop\Dataq\Dataq\obj\x86\Debug\Dataq.pdb
