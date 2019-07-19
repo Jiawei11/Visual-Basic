@@ -57,7 +57,17 @@
     End Class
 
     Class JSON
-        Shared Function parse(ByVal obj As Test) As JSON
+        Shared Function parse(ByVal obj As String)
+            Dim Dict As New Dictionary(Of String, String)
+            For Each item In obj.Split({","}, StringSplitOptions.RemoveEmptyEntries).ToList
+                Dim Data As List(Of String) = item.Split({"="}, StringSplitOptions.RemoveEmptyEntries).ToList
+                Dict.Add(Data.First, Data.Last)
+            Next
+
+            Return Dict
+        End Function
+
+        Shared Function parse(ByVal obj As Test)
             Dim Dict As New List(Of Dictionary(Of String, String))
 
             For Each item In obj.GetType().GetFields().ToArray
@@ -65,7 +75,8 @@
                 Dict.Last.Add(item.Name.ToString, obj.GetType().GetField(item.Name.ToString).GetValue(obj))
             Next
 
-            Return New JSON
+
+            Return Dict
         End Function
 
         Shared Function stringify(ByVal obj As Test)
@@ -91,10 +102,7 @@
     Private Sub Form1_Load(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles MyBase.Load
         Dim Data As New Test("admin", "1234")
 
-
-        Dim d = JSON.stringify(Data)
-
-        Dim b = JSON.parse(Data)
+        Dim b = JSON.parse(JSON.stringify(Data))
 
         Dim DF As New DataFrame
         DF("A") = {1, 2, 3, 4}
