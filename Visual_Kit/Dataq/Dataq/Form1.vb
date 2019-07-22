@@ -67,7 +67,7 @@
             Return Dict
         End Function
 
-        Shared Function parse(ByVal obj As Test)
+        Shared Function parse(ByVal obj As User)
             Dim Dict As New List(Of Dictionary(Of String, String))
 
             For Each item In obj.GetType().GetFields().ToArray
@@ -75,21 +75,20 @@
                 Dict.Last.Add(item.Name.ToString, obj.GetType().GetField(item.Name.ToString).GetValue(obj))
             Next
 
-
             Return Dict
         End Function
 
-        Shared Function stringify(ByVal obj As Test)
+        Shared Function stringify(ByVal obj As User)
             Return String.Join(",", obj.GetType().GetFields().Select(Function(x) x.Name & "=" & obj.GetType().GetField(x.Name).GetValue(obj)).Select(Function(x) x))
         End Function
     End Class
 
 
-    Class Test
+    Class User
         Public User As String
         Public Password As String
 
-        Sub New(Username As String, Password As String)
+        Sub New(ByVal Username As String, ByVal Password As String)
             Me.User = Username
             Me.Password = Password
         End Sub
@@ -100,7 +99,7 @@
     End Class
 
     Private Sub Form1_Load(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles MyBase.Load
-        Dim Data As New Test("admin", "1234")
+        Dim Data As New User("admin", "1234")
 
         Dim b = JSON.parse(JSON.stringify(Data))
 
