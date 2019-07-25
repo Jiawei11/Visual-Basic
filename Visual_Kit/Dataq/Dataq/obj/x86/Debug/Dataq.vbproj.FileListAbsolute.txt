@@ -21,3 +21,6 @@ C:\xampp\htdocs\Visual-Basic\Visual_Kit\Dataq\Dataq\obj\x86\Debug\Dataq.pdb
 C:\Users\user\Desktop\Visual-Basic\Visual_Kit\Dataq\Dataq\obj\x86\Debug\Dataq.exe
 C:\Users\user\Desktop\Visual-Basic\Visual_Kit\Dataq\Dataq\obj\x86\Debug\Dataq.xml
 C:\Users\user\Desktop\Visual-Basic\Visual_Kit\Dataq\Dataq\obj\x86\Debug\Dataq.pdb
+C:\Users\Jiawei\Desktop\Visual-Basic\Visual_Kit\Dataq\Dataq\obj\x86\Debug\Dataq.exe
+C:\Users\Jiawei\Desktop\Visual-Basic\Visual_Kit\Dataq\Dataq\obj\x86\Debug\Dataq.xml
+C:\Users\Jiawei\Desktop\Visual-Basic\Visual_Kit\Dataq\Dataq\obj\x86\Debug\Dataq.pdb

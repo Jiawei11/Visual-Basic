@@ -83,23 +83,26 @@
         End Function
     End Class
 
-
     Class User
         Public User As String
         Public Password As String
+        Public Permission As String
 
-        Sub New(ByVal Username As String, ByVal Password As String)
+        Sub New(ByVal Username As String, ByVal Password As String, Optional ByVal Permission As String = "一般使用者")
             Me.User = Username
             Me.Password = Password
+            Me.Permission = Permission
         End Sub
 
-        Sub New()
-
+        Sub ModifyPassword(ByVal oldpwd As String, ByVal newpwd As String)
+            If MsgBox("確定要更改密碼嗎?") = MsgBoxResult.Yes Then
+                Password = newpwd
+            End If
         End Sub
     End Class
 
     Private Sub Form1_Load(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles MyBase.Load
-        Dim Data As New User("admin", "1234")
+        Dim Data As New User("admin", "1234", "管理者")
 
         Dim b = JSON.parse(JSON.stringify(Data))
 
